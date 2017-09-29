@@ -1,0 +1,46 @@
+.banner {
+    background-color: #E0DCDC;
+    padding: 4em;
+    margin-bottom: 2em;
+    margin-top: 5em;
+}
+
+.preview{
+    border: none;
+    outline: none;
+    background-color: transparent;
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translate(0, -50%);
+
+}
+
+.preview:hover .fa{
+    color: #8D8C8C;
+}
+
+.preview .fa{
+    font-size: 120px;
+    color: #292828;
+    -webkit-transition: color 0.3s ease;
+    -moz-transition: color 0.3s ease;
+    transition: color 0.3s ease;
+}
+
+.post-thumbnail {
+    margin: 0;
+}
+
+.post-thumbnail img{
+    width: 100%;
+}
+
+.descr{
+    padding-right: 100px;
+}
+
+.post-list-body{
+    height: 190px;
+    overflow: hidden;
+}
